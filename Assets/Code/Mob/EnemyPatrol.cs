@@ -35,7 +35,8 @@ namespace Code.Mob
                 _transforms[_startPosition].position,
                 _speed * Time.deltaTime);
 
-            if (Vector2.Distance(transform.position, _transforms[_startPosition].position) < MinimDistance)
+            if (Vector2.Distance(transform.position, 
+                    _transforms[_startPosition].position) < MinimDistance)
             {
                 WaitForTime();
                 _animator.SetFloat(AnimationStateEnemySpeed, 0);

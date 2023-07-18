@@ -14,7 +14,8 @@ namespace Code.Camera
 
         private void Follow(GameObject gameObject)
         {
-            _transform.position = new Vector3(gameObject.transform.position.x, _transform.position.y, _transform.position.z);
+            _transform.position = new Vector3(
+            gameObject.transform.position.x, _transform.position.y, _transform.position.z);
         }
     }
 }
