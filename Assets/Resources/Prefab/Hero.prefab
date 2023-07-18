@@ -269,4 +269,4 @@ MonoBehaviour:
   _renderer: {fileID: 7859763191349192406}
   _rigidbody2D: {fileID: 102581347}
   _audioSource: {fileID: 87897487}
-  _jumpForse: 350
+  _jumpForse: 750
